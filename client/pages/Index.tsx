@@ -205,10 +205,10 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 md:py-28 bg-gradient-to-b from-white to-slate-50">
+      <section className="py-16 md:py-28 bg-gradient-to-b from-slate-800 to-slate-900">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-accent text-accent-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-accent to-yellow-500 text-accent-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 30+
               </p>
@@ -216,7 +216,7 @@ export default function Home() {
                 Years of Experience
               </p>
             </div>
-            <div className="bg-primary text-primary-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-700 to-blue-600 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 500+
               </p>
@@ -224,7 +224,7 @@ export default function Home() {
                 Trained Personnel
               </p>
             </div>
-            <div className="bg-slate-900 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-700 to-slate-600 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 100+
               </p>
