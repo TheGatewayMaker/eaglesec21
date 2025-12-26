@@ -116,8 +116,7 @@ export default function Home() {
                   Static Security Guards
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Vetted, trained professionals providing reliable, disciplined
-                  on-site protection for your premises
+                  Our vetted security professionals provide round-the-clock on-site protection with military discipline and precision. Each guard undergoes comprehensive background screening and tactical training to ensure the safety and security of your facilities, personnel, and valuable assets.
                 </p>
               </div>
             </div>
