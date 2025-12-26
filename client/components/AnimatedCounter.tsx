@@ -39,7 +39,7 @@ export default function AnimatedCounter({
           requestAnimationFrame(animate);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.5 },
     );
 
     if (ref.current) {

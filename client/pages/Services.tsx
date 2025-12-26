@@ -1,4 +1,11 @@
-import { Shield, Users, Truck, Lock, CheckCircle2, ArrowRight } from "lucide-react";
+import {
+  Shield,
+  Users,
+  Truck,
+  Lock,
+  CheckCircle2,
+  ArrowRight,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Services() {
