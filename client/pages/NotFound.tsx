@@ -12,15 +12,15 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 flex items-center justify-center">
-      <div className="text-center px-6">
+    <div className="min-h-screen bg-background flex items-center justify-center transition-colors duration-300">
+      <div className="text-center px-6 animate-fade-in">
         <h1 className="text-6xl md:text-8xl font-black text-accent mb-4">
           404
         </h1>
-        <h2 className="text-3xl md:text-5xl font-black text-white mb-6">
+        <h2 className="text-3xl md:text-5xl font-black text-foreground mb-6">
           Page Not Found
         </h2>
-        <p className="text-base md:text-xl text-gray-300 opacity-90 mb-8 max-w-md font-bold">
+        <p className="text-base md:text-xl text-muted-foreground opacity-90 mb-8 max-w-md font-bold">
           The page you're looking for doesn't exist or is still under
           development.
         </p>
