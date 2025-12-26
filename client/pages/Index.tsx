@@ -248,13 +248,13 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-slate-50 border-2 border-border p-10 rounded-2xl hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300"
+                className="bg-slate-50 border-2 border-slate-200 p-6 md:p-10 rounded-xl md:rounded-2xl hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300"
               >
-                <item.icon className="w-12 h-12 text-accent mb-6 transition-transform duration-300 group-hover:scale-110" />
-                <h3 className="text-2xl font-black text-primary mb-4">
+                <item.icon className="w-10 md:w-12 h-10 md:h-12 text-accent mb-4 md:mb-6 transition-transform duration-300" />
+                <h3 className="text-lg md:text-2xl font-black text-primary mb-3 md:mb-4 leading-tight">
                   {item.title}
                 </h3>
-                <p className="text-base md:text-lg font-bold text-foreground leading-relaxed">
+                <p className="text-sm md:text-lg font-bold text-slate-700 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
