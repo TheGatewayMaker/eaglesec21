@@ -482,9 +482,6 @@ export default function Home() {
       {/* Guards By Region Section */}
       <GuardsByRegion />
 
-      {/* Total Guards Deployed Summary */}
-      <TotalGuardsDeployed />
-
       {/* Company Wise Deployments Section */}
       <CompanyWiseDeployments />
 
