@@ -390,7 +390,7 @@ export default function Home() {
                 <h3 className="text-lg sm:text-xl md:text-3xl font-black text-foreground mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
+                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-blue-300 transition-colors duration-300">
                   {item.desc}
                 </p>
               </div>
