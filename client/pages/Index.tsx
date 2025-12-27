@@ -46,7 +46,7 @@ export default function Home() {
               <p className="text-xs sm:text-sm font-black text-accent mb-4 sm:mb-6 uppercase tracking-widest">
                 Professional Security Since 1992
               </p>
-              <h1 className="text-3xl sm:text-4xl md:text-7xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-7xl font-black mb-6 sm:mb-8 leading-tight">
                 Elite Security Services For Your Peace of Mind
               </h1>
               <p className="text-sm sm:text-base md:text-xl text-muted-foreground font-bold mb-8 sm:mb-12 leading-relaxed">
