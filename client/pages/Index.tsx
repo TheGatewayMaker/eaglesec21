@@ -513,7 +513,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 md:py-48 bg-background transition-colors duration-300">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-7xl font-black text-foreground mb-8 md:mb-10 leading-tight">
+          <h2 className="text-3xl md:text-7xl font-black mb-8 md:mb-10 leading-tight">
             Ready to Protect <br className="hidden md:block" />
             What Matters?
           </h2>
