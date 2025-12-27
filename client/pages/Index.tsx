@@ -7,6 +7,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
+import CompanyWiseDeployments from "@/components/CompanyWiseDeployments";
+import GuardsByRegion from "@/components/GuardsByRegion";
 
 export default function Home() {
   return (
