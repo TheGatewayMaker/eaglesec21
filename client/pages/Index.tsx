@@ -120,7 +120,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/xK0H4mRY/Screenshot-2025-12-27-at-10-17-59-PM.png"
                   alt="Professional security guards with tactical gear"
                   className="w-full h-full object-cover"
                 />
