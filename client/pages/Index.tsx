@@ -17,7 +17,7 @@ export default function Home() {
       className="text-foreground"
       style={{
         background:
-          "linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 20%, #e8e8e8 40%, #dcdcdc 60%, #d0d0d0 80%, #c8c8c8 100%)",
+          "linear-gradient(to bottom, #f9f9f9 0%, #f3f3f3 40%, #efefef 100%)",
       }}
     >
       {/* Hero Section */}
