@@ -481,6 +481,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Company Wise Deployments Section */}
+      <CompanyWiseDeployments />
+
+      {/* Guards By Region Section */}
+      <GuardsByRegion />
+
       {/* CTA Section */}
       <section className="py-14 md:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
