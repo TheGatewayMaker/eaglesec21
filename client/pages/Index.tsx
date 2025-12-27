@@ -387,7 +387,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             {/* Head Office */}
-            <div className="bg-accent text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:opacity-95">
+            <div className="bg-pk-green-main text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:opacity-95">
               <p className="text-white font-black text-xs uppercase tracking-widest mb-4 md:mb-6 opacity-90">
                 Head Office
               </p>
