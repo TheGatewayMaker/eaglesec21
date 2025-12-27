@@ -127,28 +127,28 @@ export default function Services() {
                   (SSG) of Pakistan Army, an elite force trained to use all
                   available means to survive the worst security hazards.
                 </p>
-                <ul className="space-y-4">
-                  <li className="flex gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-black text-base md:text-lg">
+                <ul className="space-y-5">
+                  <li className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
+                    <CheckCircle2 className="w-7 h-7 text-accent flex-shrink-0 mt-0" />
+                    <span className="text-foreground font-black text-base md:text-lg leading-snug">
                       Elite personnel from Special Service Group (SSG)
                     </span>
                   </li>
-                  <li className="flex gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-black text-base md:text-lg">
+                  <li className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
+                    <CheckCircle2 className="w-7 h-7 text-accent flex-shrink-0 mt-0" />
+                    <span className="text-foreground font-black text-base md:text-lg leading-snug">
                       Cream of handpicked men dedicated to difficult missions
                     </span>
                   </li>
-                  <li className="flex gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-black text-base md:text-lg">
+                  <li className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
+                    <CheckCircle2 className="w-7 h-7 text-accent flex-shrink-0 mt-0" />
+                    <span className="text-foreground font-black text-base md:text-lg leading-snug">
                       Advanced threat assessment and response training
                     </span>
                   </li>
-                  <li className="flex gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-black text-base md:text-lg">
+                  <li className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
+                    <CheckCircle2 className="w-7 h-7 text-accent flex-shrink-0 mt-0" />
+                    <span className="text-foreground font-black text-base md:text-lg leading-snug">
                       Protection in high-risk security scenarios
                     </span>
                   </li>
