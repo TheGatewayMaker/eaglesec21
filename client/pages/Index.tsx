@@ -21,7 +21,7 @@ export default function Home() {
       <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-32 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
-          className="hidden md:block absolute right-0 top-0 w-[calc(50%+2rem)] h-full -mr-6"
+          className="hidden md:block absolute right-0 top-20 w-[calc(50%+2rem)] h-[85%] -mr-6"
           style={{
             backgroundImage:
               "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800')",
