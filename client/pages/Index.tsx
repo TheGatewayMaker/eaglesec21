@@ -296,6 +296,24 @@ export default function Home() {
                 Trusted by leading organizations
               </p>
             </div>
+
+            {/* Total Guards Deployed Card */}
+            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
+              <div className="mb-8 md:mb-10">
+                <AnimatedCounter
+                  targetNumber={1541}
+                  suffix="+"
+                  duration={2000}
+                  className="text-5xl md:text-7xl font-black text-accent"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+                Total Guards Deployed
+              </h3>
+              <p className="text-sm md:text-base font-bold text-muted-foreground">
+                Active security personnel across Pakistan
+              </p>
+            </div>
           </div>
         </div>
       </section>
