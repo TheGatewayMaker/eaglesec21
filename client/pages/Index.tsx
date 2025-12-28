@@ -49,7 +49,7 @@ export default function Home() {
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 lg:gap-7">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
                 <Link
                   to="/services"
                   className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
@@ -62,6 +62,7 @@ export default function Home() {
                 >
                   Get a Quote Now
                 </Link>
+                <WhatsAppButton size="md" />
               </div>
             </div>
 
