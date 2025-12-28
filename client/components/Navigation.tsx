@@ -140,10 +140,7 @@ export default function Navigation() {
                     animationDelay: `${navigationLinks.length * 50}ms`,
                   }}
                 >
-                  <WhatsAppButton
-                    size="md"
-                    className="w-full justify-center"
-                  />
+                  <WhatsAppButton size="md" className="w-full justify-center" />
                 </div>
               </div>
             </div>

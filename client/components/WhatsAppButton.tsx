@@ -12,7 +12,7 @@ export default function WhatsAppButton({
   message = "Hello! I'm interested in your security services.",
 }: WhatsAppButtonProps) {
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${encodeURIComponent(
-    message
+    message,
   )}`;
 
   const sizeClasses = {
