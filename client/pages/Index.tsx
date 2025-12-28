@@ -270,8 +270,8 @@ export default function Home() {
       {/* Value Proposition Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300 relative overflow-hidden">
         {/* Decorative Background Elements */}
-        <div className="absolute top-0 left-1/2 w-96 h-96 bg-pk-green-main/4 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-1/3 right-1/4 w-72 h-72 bg-accent/4 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 left-1/2 w-[500px] h-[500px] bg-accent/16 rounded-full blur-3xl -translate-x-1/2 opacity-65"></div>
+        <div className="absolute bottom-1/4 -right-40 w-[420px] h-[420px] bg-accent/13 rounded-full blur-2xl opacity-60"></div>
 
         <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
           {/* Section Header */}
