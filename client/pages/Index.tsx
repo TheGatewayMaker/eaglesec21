@@ -602,8 +602,12 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 w-full">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300 relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-pk-green-main/4 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-1/3 right-0 w-80 h-80 bg-accent/3 rounded-full blur-3xl translate-x-1/2"></div>
+
+        <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
           {/* Section Title with Visual Styling */}
           <div className="mb-8 sm:mb-12 md:mb-16 lg:mb-24">
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
