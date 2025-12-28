@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { X } from "lucide-react";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,6 +35,10 @@ export default function Navigation() {
       document.body.style.overflow = "unset";
     };
   }, [mobileMenuOpen]);
+
+  const handleNavLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <nav className="bg-background border-b-2 border-accent sticky top-0 z-50 shadow-lg transition-colors duration-300">
