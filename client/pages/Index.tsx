@@ -15,10 +15,10 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-32 transition-colors duration-300">
+      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-10 sm:py-14 md:py-20 lg:py-32 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
-          className="hidden md:block absolute right-12 top-8 w-[calc(50%+2rem)] h-full -mr-6"
+          className="hidden md:block absolute right-8 lg:right-12 top-4 lg:top-8 w-[calc(50%+2rem)] h-full -mr-6"
           style={{
             backgroundImage:
               "url('https://cdn.builder.io/api/v1/image/assets%2F151c661f676241159dc387d4f0557eb8%2Fc6fb9be958f544c6a63756ea3bde1005?format=webp&width=800')",
@@ -31,33 +31,33 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 lg:gap-12 items-center">
             {/* Left Content - Expanded to use more space */}
             <div className="md:col-span-7">
-              <div className="flex items-center gap-3 mb-6 sm:mb-8">
-                <div className="w-1 h-10 md:h-12 bg-accent rounded-full"></div>
-                <p className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest">
+              <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8">
+                <div className="w-1 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
+                <p className="text-xs font-black text-accent uppercase tracking-widest">
                   Professional Security Since 1992
                 </p>
               </div>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 sm:mb-8 leading-tight text-foreground">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-4 sm:mb-6 lg:mb-8 leading-tight text-foreground">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-sm sm:text-base md:text-lg text-muted-foreground font-bold mb-10 sm:mb-14 leading-relaxed max-w-2xl">
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
               </p>
-              <div className="flex flex-col sm:flex-row gap-5 sm:gap-7">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 lg:gap-7">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-8 md:px-10 py-3 md:py-4 font-black text-sm md:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                  className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
                 >
                   Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-accent text-accent px-8 md:px-10 py-3 md:py-4 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                  className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-block rounded-lg"
                 >
                   Get a Quote Now
                 </Link>
