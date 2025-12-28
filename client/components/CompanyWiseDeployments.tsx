@@ -13,9 +13,9 @@ export default function CompanyWiseDeployments() {
 
   return (
     <section className="py-6 sm:py-8 md:py-12 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
-      <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+      <div className="container mx-auto px-0 sm:px-6 w-full">
         {/* Section Title with Visual Styling */}
-        <div className="mb-6 sm:mb-8 md:mb-10">
+        <div className="mb-6 sm:mb-8 md:mb-10 px-4 sm:px-0">
           <div className="flex items-center gap-3 md:gap-4 mb-3 sm:mb-4">
             <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight">
@@ -28,7 +28,7 @@ export default function CompanyWiseDeployments() {
         </div>
 
         {/* Professional Table Layout */}
-        <div className="bg-card border border-border overflow-hidden">
+        <div className="bg-card border border-border overflow-hidden mx-4 sm:mx-0">
           {/* Header Row */}
           <div className="grid grid-cols-3 gap-4 bg-pk-green-main text-white px-6 md:px-8 py-4 md:py-5 font-black">
             <div className="text-base md:text-lg">Organization</div>

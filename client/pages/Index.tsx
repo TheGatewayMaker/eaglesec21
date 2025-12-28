@@ -3,6 +3,7 @@ import { Shield, Users, Truck, Lock, ArrowRight } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import CompanyWiseDeployments from "@/components/CompanyWiseDeployments";
 import GuardsByRegion from "@/components/GuardsByRegion";
+import LogoCarousel from "@/components/LogoCarousel";
 
 export default function Home() {
   return (
@@ -89,7 +90,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-4 sm:px-0">
             {/* Service 1 - Bodyguards */}
             <div className="group overflow-hidden transition-all duration-300">
-              <div className="bg-card border border-border/50 overflow-hidden transition-all duration-300 h-full flex flex-col hover:border-accent/30">
+              <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                 <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                   <img
                     src="https://i.ibb.co/1fF8J0kc/Screenshot-2025-12-27-at-10-18-51-PM.png"
@@ -131,7 +132,7 @@ export default function Home() {
 
             {/* Service 2 - Static Guards */}
             <div className="group overflow-hidden transition-all duration-300">
-              <div className="bg-card border border-border/50 overflow-hidden transition-all duration-300 h-full flex flex-col hover:border-accent/30">
+              <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                 <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                   <img
                     src="https://i.ibb.co/xK0H4mRY/Screenshot-2025-12-27-at-10-17-59-PM.png"
@@ -172,7 +173,7 @@ export default function Home() {
 
             {/* Service 3 - Mobile Escorts */}
             <div className="group overflow-hidden transition-all duration-300">
-              <div className="bg-card border border-border/50 overflow-hidden transition-all duration-300 h-full flex flex-col hover:border-accent/30">
+              <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                 <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                   <img
                     src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
@@ -213,7 +214,7 @@ export default function Home() {
 
             {/* Service 4 - Security Equipment */}
             <div className="group overflow-hidden transition-all duration-300">
-              <div className="bg-card border border-border/50 overflow-hidden transition-all duration-300 h-full flex flex-col hover:border-accent/30">
+              <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                 <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                   <img
                     src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
@@ -424,10 +425,10 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="relative aspect-square overflow-hidden border border-border transition-all duration-300 hover:shadow-lg hover:border-pk-green-main/60 group"
+                className="relative aspect-square overflow-hidden border border-border transition-border duration-300 hover:border-pk-green-main/60 group"
               >
                 <div
-                  className="absolute inset-0 bg-cover bg-center"
+                  className="absolute inset-0 bg-cover bg-center transition-filter duration-300 group-hover:grayscale"
                   style={{
                     backgroundImage: `url('${item.image}')`,
                   }}
@@ -506,7 +507,10 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main cursor-pointer group">
+              <div
+                className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-black"
+                style={{}}
+              >
                 <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
@@ -522,7 +526,7 @@ export default function Home() {
             </div>
 
             {/* Right Side - Pakistan Map */}
-            <div className="flex items-center justify-end pl-4 md:pl-8">
+            <div className="flex items-center justify-end pl-4 md:pl-16">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Facfe06c5cde64b46837eb142f7cf7313%2F2569c5f933e445229e02928b632df203?format=webp&width=800"
                 alt="Pakistan map showing Eagle Security locations"
@@ -535,38 +539,75 @@ export default function Home() {
 
       {/* Trusted By Section */}
       <section className="py-10 sm:py-14 md:py-24 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-pk-green-main/20">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
-          <div className="mb-12 md:mb-16 text-center">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
+          <div className="mb-12 md:mb-16 text-center px-4 sm:px-0">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 md:mb-6">
-              Our Clients
+              Our Trusted Clients
             </h2>
             <p className="text-base md:text-lg font-bold text-muted-foreground">
               Trusted by Leading Organizations
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
-            {[
-              "ARY News",
-              "Meezan Bank",
-              "DESCON",
-              "National Bank",
-              "PARCO",
-              "UNDP",
-              "Imtiaz",
-              "State Life",
-              "Allied Schools",
-              "Shifa Hospitals",
-            ].map((client) => (
-              <div
-                key={client}
-                className="aspect-square border border-border bg-card p-4 md:p-6 flex items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:border-accent hover:bg-accent hover:text-accent-foreground"
-              >
-                <p className="font-black text-xs md:text-sm leading-tight text-foreground">
-                  {client}
-                </p>
-              </div>
-            ))}
-          </div>
+          <LogoCarousel
+            logos={[
+              {
+                name: "ARY News",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff3ebc3a4187e40bf9d7f10e440b36a7d?format=webp&width=800",
+              },
+              {
+                name: "Meezan Bank",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff9b6c26e0d234eaab072802436b782de?format=webp&width=800",
+              },
+              {
+                name: "DESCON",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F160a208df8f54517b77c118285460174?format=webp&width=800",
+              },
+              {
+                name: "National Bank",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe99163aae9654c5ebb7796a3ee932c96?format=webp&width=800",
+              },
+              {
+                name: "PARCO",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F75d82dc2864c42faa002598c66ed0672?format=webp&width=800",
+              },
+              {
+                name: "UNDP",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fee2cc39d10974a14a3cd0447be5eeb67?format=webp&width=800",
+              },
+              {
+                name: "Imtiaz",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fcf0a1f59b04348d08761a4950f9b32b6?format=webp&width=800",
+              },
+              {
+                name: "State Life",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff647a7c1595449f7a5f7d4de8cd24fdc?format=webp&width=800",
+              },
+              {
+                name: "Allied Schools",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe5d2393c93ba481fbc9158f95949cd46?format=webp&width=800",
+              },
+              {
+                name: "Shifa Hospitals",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F25eb5e60eac8489baed0173749cec55b?format=webp&width=800",
+              },
+              {
+                name: "Government of Pakistan",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fca39f789c9f5477c83c7eaf27dcb75d4?format=webp&width=800",
+              },
+              {
+                name: "The Educators",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fc4d1dd9cc8c6430db60dbc799d95c25e?format=webp&width=800",
+              },
+              {
+                name: "Rousche Pakistan",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F5f179ba3433447169838f39aa9c58dd9?format=webp&width=800",
+              },
+              {
+                name: "Dawood Hercules",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe87ba69b87724354bae67673530086d4?format=webp&width=800",
+              },
+            ]}
+          />
         </div>
       </section>
 

@@ -26,13 +26,13 @@ export default function Navigation() {
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
-              className="h-12 w-12 md:h-16 md:w-16"
+              className="h-14 w-14 md:h-20 md:w-20"
             />
             <div className="flex flex-col gap-1">
-              <span className="text-xl md:text-2xl font-black text-foreground">
+              <span className="text-2xl md:text-3xl font-black text-foreground">
                 Eagle
               </span>
-              <span className="text-xs font-black tracking-widest text-accent">
+              <span className="text-sm font-black tracking-widest text-accent">
                 SECURITY GUARDS
               </span>
             </div>
@@ -44,7 +44,7 @@ export default function Navigation() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="font-black text-sm text-foreground hover:text-accent transition-colors duration-300 relative group"
+                className="font-black text-base text-foreground hover:text-accent transition-colors duration-300 relative group"
               >
                 {link.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all duration-300"></span>
@@ -108,7 +108,7 @@ export default function Navigation() {
                 key={link.to}
                 to={link.to}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block py-3 px-5 font-black text-sm text-foreground hover:text-accent-foreground bg-muted/40 hover:bg-accent transition-all duration-300 mb-2 border-l-4 border-transparent hover:border-accent"
+                className="block py-3 px-5 font-black text-base text-foreground hover:text-accent-foreground bg-muted/40 hover:bg-accent transition-all duration-300 mb-2 border-l-4 border-transparent hover:border-accent"
                 style={{
                   animationDelay: `${index * 50}ms`,
                 }}
