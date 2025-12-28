@@ -26,7 +26,7 @@ export default function WhatsAppButton({
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className={`bg-accent text-accent-foreground inline-flex items-center gap-2 sm:gap-3 font-black transition-all duration-300 rounded-lg hover:shadow-xl ${sizeClasses[size]} ${className}`}
+      className={`bg-accent text-accent-foreground inline-flex items-center gap-2 sm:gap-3 font-black transition-all duration-300 rounded-lg hover:shadow-xl hover:scale-105 ${sizeClasses[size]} ${className}`}
     >
       <img
         src="https://i.ibb.co/27tgGvMZ/whatsapp-phone-icon.png"
