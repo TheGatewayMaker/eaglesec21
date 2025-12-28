@@ -507,8 +507,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main cursor-pointer group">
-                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-background transition-colors duration-300">
+              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:bg-black cursor-pointer group">
+                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 text-foreground group-hover:text-white transition-colors duration-300">
