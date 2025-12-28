@@ -30,7 +30,7 @@
     --muted: 210 15% 75%;
     --muted-foreground: 210 8% 35%;
 
-    --accent: 210 70% 35%;
+    --accent: 140 55% 35%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -38,7 +38,7 @@
 
     --border: 210 20% 88%;
     --input: 0 0% 94%;
-    --ring: 210 70% 35%;
+    --ring: 140 55% 35%;
 
     --radius: 0rem;
 
@@ -82,7 +82,7 @@
     --muted: 210 15% 30%;
     --muted-foreground: 210 8% 68%;
 
-    --accent: 210 70% 38%;
+    --accent: 140 55% 42%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -90,7 +90,7 @@
 
     --border: 210 20% 22%;
     --input: 0 0% 16%;
-    --ring: 210 70% 38%;
+    --ring: 140 55% 42%;
     --pk-green-dark: 140 62% 30%;
     --pk-green-main: 140 55% 42%;
     --pk-green-light: 140 50% 58%;
