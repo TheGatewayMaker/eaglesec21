@@ -470,7 +470,7 @@ export default function Home() {
             <div className="flex flex-col space-y-8 md:space-y-10">
               {/* Head Office */}
               <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 border border-pk-green-main/20 flex flex-col">
-                <div className="flex justify-between items-center mb-4 md:mb-6 -mt-2">
+                <div className="flex justify-between items-center mb-4 md:mb-6 -mt-4 -mr-2">
                   <p className="font-black text-xs uppercase tracking-widest text-white">
                     Head Office
                   </p>
