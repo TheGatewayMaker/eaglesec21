@@ -257,34 +257,137 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="relative overflow-hidden py-8 sm:py-12 md:py-20 border-y border-pk-green-main/30 transition-colors duration-300">
-        <div className="absolute inset-0">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=1200')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          ></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-background/99 via-background/95 to-background/70"></div>
-        </div>
+      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
+          {/* Section Header */}
+          <div className="mb-12 sm:mb-16 md:mb-24 px-4 sm:px-0">
+            <div className="flex items-center gap-3 md:gap-4 mb-4 sm:mb-6">
+              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight">
+                Why Professional Security Matters
+              </h2>
+            </div>
+            <p className="text-sm md:text-base font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
+              In a world where threats evolve constantly, professional security isn't just an option—it's essential
+            </p>
+          </div>
 
-        <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8 text-foreground">
-              Why Professional Security Matters
-            </h2>
-            <p className="text-sm sm:text-base md:text-xl font-black leading-relaxed mb-4 sm:mb-6 text-foreground">
-              In a world where security has become critical, a personalized
-              approach is key to ensuring you get the protection you deserve.
-            </p>
-            <p className="text-sm sm:text-base md:text-lg font-black leading-relaxed text-foreground">
-              From static guards and elite bodyguards to mobile escorts and
-              advanced security equipment, we provide comprehensive, tailored
-              solutions for every security need backed by decades of expertise.
-            </p>
+          {/* Key Reasons Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-4 sm:px-0 mb-12 md:mb-16">
+            {/* Reason 1 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">01</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Expert Threat Assessment
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  Our trained professionals identify vulnerabilities and create customized strategies to address your specific security needs.
+                </p>
+              </div>
+            </div>
+
+            {/* Reason 2 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">02</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Rapid Response Capability
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  24/7 monitoring and immediate action protocols ensure threats are addressed swiftly and effectively when situations arise.
+                </p>
+              </div>
+            </div>
+
+            {/* Reason 3 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">03</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Advanced Training & Standards
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  Military-backed personnel with rigorous training ensure compliance with international security protocols and standards.
+                </p>
+              </div>
+            </div>
+
+            {/* Reason 4 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">04</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Legal & Compliance Protection
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  Professional security protocols ensure your organization stays compliant with national and international security regulations.
+                </p>
+              </div>
+            </div>
+
+            {/* Reason 5 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">05</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Peace of Mind & Confidence
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  Knowing professionals protect what matters most allows you to focus on your business and personal growth without worry.
+                </p>
+              </div>
+            </div>
+
+            {/* Reason 6 */}
+            <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
+                  <span className="text-2xl font-black text-accent">06</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black leading-tight mb-4 text-foreground">
+                  Proven Track Record
+                </h3>
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
+                  Three decades of protecting Pakistan's leading organizations with zero compromise on quality and professionalism.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Summary Banner */}
+          <div className="px-4 sm:px-0">
+            <div className="relative overflow-hidden bg-gradient-to-r from-pk-green-main/10 to-accent/10 border border-pk-green-main/30 rounded-xl p-10 md:p-14">
+              <div className="absolute -right-20 -top-20 w-52 h-52 bg-accent/5 rounded-full"></div>
+              <div className="absolute -left-20 -bottom-20 w-64 h-64 bg-pk-green-main/5 rounded-full"></div>
+              <div className="relative z-10">
+                <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">
+                  Our Commitment
+                </p>
+                <h3 className="text-3xl md:text-5xl font-black leading-tight mb-6 text-foreground max-w-3xl">
+                  Professional Security Is An Investment In Your Future
+                </h3>
+                <p className="text-base md:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed">
+                  From comprehensive threat assessment to rapid response protocols, we provide complete protection backed by military expertise and decades of proven success.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
