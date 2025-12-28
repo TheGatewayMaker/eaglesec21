@@ -15,35 +15,58 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
   const dragStartXRef = useRef(0);
   const dragStartScrollRef = useRef(0);
   const [isHovering, setIsHovering] = useState(false);
+  const animationFrameRef = useRef<number>();
+
+  // Create duplicated logos for infinite scroll effect
+  const duplicatedLogos = [...logos, ...logos, ...logos];
 
   // Auto-scroll functionality
   useEffect(() => {
-    if (isHovering || isDraggingRef.current) return;
-
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const scrollSpeed = 1; // pixels per frame
-    let animationFrameId: number;
+    const scrollSpeed = 0.8; // pixels per frame
+    let lastScrollLeft = 0;
 
     const autoScroll = () => {
-      if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-        container.scrollLeft = 0;
-      } else {
-        container.scrollLeft += scrollSpeed;
+      if (isDraggingRef.current || isHovering) {
+        animationFrameRef.current = requestAnimationFrame(autoScroll);
+        return;
       }
-      animationFrameId = requestAnimationFrame(autoScroll);
+
+      container.scrollLeft += scrollSpeed;
+
+      // Calculate the scroll width for one set of logos
+      const singleSetWidth = container.scrollWidth / 3;
+
+      // Reset to beginning when reaching the middle set
+      if (container.scrollLeft >= singleSetWidth * 2) {
+        container.scrollLeft = singleSetWidth;
+      }
+
+      lastScrollLeft = container.scrollLeft;
+      animationFrameRef.current = requestAnimationFrame(autoScroll);
     };
 
-    animationFrameId = requestAnimationFrame(autoScroll);
+    // Set initial scroll position to middle set for seamless looping
+    container.scrollLeft = (container.scrollWidth / 3);
 
-    return () => cancelAnimationFrame(animationFrameId);
+    animationFrameRef.current = requestAnimationFrame(autoScroll);
+
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+    };
   }, [isHovering]);
 
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     isDraggingRef.current = true;
     dragStartXRef.current = e.clientX;
     dragStartScrollRef.current = scrollContainerRef.current?.scrollLeft || 0;
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current);
+    }
   };
 
   const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -77,9 +100,9 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
           userSelect: "none",
         }}
       >
-        {logos.map((logo) => (
+        {duplicatedLogos.map((logo, index) => (
           <div
-            key={logo.name}
+            key={`${logo.name}-${index}`}
             className="flex-shrink-0 h-24 md:h-28 flex items-center justify-center pointer-events-none"
           >
             <img
