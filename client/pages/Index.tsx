@@ -257,24 +257,24 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
-        <div className="container mx-auto px-0 sm:px-6 w-full">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 w-full">
           {/* Section Header */}
-          <div className="mb-12 sm:mb-16 md:mb-24 px-4 sm:px-0">
-            <div className="flex items-center gap-3 md:gap-4 mb-4 sm:mb-6">
-              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
-              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight">
+          <div className="mb-8 sm:mb-12 md:mb-16 lg:mb-24">
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
                 Why Professional Security Matters
               </h2>
             </div>
-            <p className="text-sm md:text-base font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
               In a world where threats evolve constantly, professional security
               isn't just an option—it's essential
             </p>
           </div>
 
           {/* Key Reasons Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-4 sm:px-0 mb-12 md:mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16 lg:mb-20">
             {/* Reason 1 */}
             <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-8 md:p-10 transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
