@@ -514,7 +514,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 text-foreground group-hover:text-white transition-colors duration-300">
                   Nationwide
                 </h3>
-                <div className="text-sm md:text-base font-black text-muted-foreground group-hover:text-background/90 space-y-2 md:space-y-3 leading-relaxed transition-colors duration-300">
+                <div className="text-sm md:text-base font-black text-muted-foreground group-hover:text-white space-y-2 md:space-y-3 leading-relaxed transition-colors duration-300">
                   <p>✓ Including AJK</p>
                   <p>✓ Sub-offices in major cities</p>
                   <p>✓ 24/7 availability everywhere</p>
