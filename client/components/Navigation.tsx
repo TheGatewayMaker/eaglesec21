@@ -60,7 +60,7 @@ export default function Navigation() {
                 Eagle
               </span>
               <span className="text-xs sm:text-sm font-black tracking-widest text-accent">
-                SECURITY
+                SECURITY GUARDS
               </span>
             </div>
           </Link>
