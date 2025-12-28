@@ -23,7 +23,8 @@ export default function CompanyWiseDeployments() {
             </h2>
           </div>
           <p className="text-sm md:text-base font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
-            Our security personnel deployed across major organizations nationwide
+            Our security personnel deployed across major organizations
+            nationwide
           </p>
         </div>
 
@@ -73,7 +74,8 @@ export default function CompanyWiseDeployments() {
               </h3>
             </div>
             <p className="text-base md:text-lg font-bold text-muted-foreground max-w-md">
-              Protecting Pakistan's leading organizations with professional security services
+              Protecting Pakistan's leading organizations with professional
+              security services
             </p>
           </div>
         </div>

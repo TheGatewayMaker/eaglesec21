@@ -268,7 +268,8 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-sm md:text-base font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
-              In a world where threats evolve constantly, professional security isn't just an option—it's essential
+              In a world where threats evolve constantly, professional security
+              isn't just an option—it's essential
             </p>
           </div>
 
@@ -285,7 +286,8 @@ export default function Home() {
                   Expert Threat Assessment
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  Our trained professionals identify vulnerabilities and create customized strategies to address your specific security needs.
+                  Our trained professionals identify vulnerabilities and create
+                  customized strategies to address your specific security needs.
                 </p>
               </div>
             </div>
@@ -301,7 +303,8 @@ export default function Home() {
                   Rapid Response Capability
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  24/7 monitoring and immediate action protocols ensure threats are addressed swiftly and effectively when situations arise.
+                  24/7 monitoring and immediate action protocols ensure threats
+                  are addressed swiftly and effectively when situations arise.
                 </p>
               </div>
             </div>
@@ -317,7 +320,9 @@ export default function Home() {
                   Advanced Training & Standards
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  Military-backed personnel with rigorous training ensure compliance with international security protocols and standards.
+                  Military-backed personnel with rigorous training ensure
+                  compliance with international security protocols and
+                  standards.
                 </p>
               </div>
             </div>
@@ -333,7 +338,9 @@ export default function Home() {
                   Legal & Compliance Protection
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  Professional security protocols ensure your organization stays compliant with national and international security regulations.
+                  Professional security protocols ensure your organization stays
+                  compliant with national and international security
+                  regulations.
                 </p>
               </div>
             </div>
@@ -349,7 +356,8 @@ export default function Home() {
                   Peace of Mind & Confidence
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  Knowing professionals protect what matters most allows you to focus on your business and personal growth without worry.
+                  Knowing professionals protect what matters most allows you to
+                  focus on your business and personal growth without worry.
                 </p>
               </div>
             </div>
@@ -365,7 +373,8 @@ export default function Home() {
                   Proven Track Record
                 </h3>
                 <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground">
-                  Three decades of protecting Pakistan's leading organizations with zero compromise on quality and professionalism.
+                  Three decades of protecting Pakistan's leading organizations
+                  with zero compromise on quality and professionalism.
                 </p>
               </div>
             </div>
@@ -384,7 +393,9 @@ export default function Home() {
                   Professional Security Is An Investment In Your Future
                 </h3>
                 <p className="text-base md:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed">
-                  From comprehensive threat assessment to rapid response protocols, we provide complete protection backed by military expertise and decades of proven success.
+                  From comprehensive threat assessment to rapid response
+                  protocols, we provide complete protection backed by military
+                  expertise and decades of proven success.
                 </p>
               </div>
             </div>
