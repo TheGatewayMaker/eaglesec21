@@ -581,10 +581,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             {/* Left Side - Cities and Offices */}
-            <div className="flex flex-col space-y-8 md:space-y-10">
+            <div className="flex flex-col space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10">
               {/* Head Office */}
-              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 border border-pk-green-main/20 flex flex-col">
-                <div className="flex justify-between items-center mb-4 md:mb-6 -mt-4 -mr-2">
+              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-6 sm:p-8 md:p-10 lg:p-12 border border-pk-green-main/20 flex flex-col">
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 sm:mb-4 md:mb-6 gap-2 sm:gap-0">
                   <p className="font-black text-xs uppercase tracking-widest text-white">
                     Head Office
                   </p>
@@ -595,25 +595,25 @@ export default function Home() {
                       );
                       element?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    className="text-blue-300 font-black text-sm md:text-base hover:text-blue-200 transition-colors duration-300"
+                    className="text-blue-300 font-black text-xs sm:text-sm hover:text-blue-200 transition-colors duration-300"
                   >
                     Get Directions
                   </button>
                 </div>
-                <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight text-white">
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-6 lg:mb-8 leading-tight text-white">
                   Islamabad
                 </h3>
-                <p className="text-base md:text-lg font-black text-white leading-relaxed">
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-black text-white leading-relaxed">
                   Central coordination and management hub
                 </p>
               </div>
 
               {/* Regional Offices with City Buttons */}
               <div>
-                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
+                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6">
                   Regional Offices
                 </p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
                   {[
                     "Lahore",
                     "Karachi",
@@ -624,7 +624,7 @@ export default function Home() {
                   ].map((city) => (
                     <div
                       key={city}
-                      className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white px-4 md:px-5 py-2 md:py-2.5 text-center font-black text-xs md:text-sm leading-tight transition-all duration-300 hover:shadow-lg hover:bg-foreground group cursor-pointer border border-pk-green-main/20"
+                      className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white px-3 sm:px-4 md:px-5 py-2 text-center font-black text-xs md:text-sm leading-tight transition-all duration-300 hover:shadow-lg hover:bg-foreground group cursor-pointer border border-pk-green-main/20"
                     >
                       <span className="group-hover:text-white transition-colors duration-300">
                         {city}
@@ -634,17 +634,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <div
-                className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-gradient-to-br hover:from-black hover:to-black/80"
-                style={{}}
-              >
-                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
+              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-5 sm:p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-gradient-to-br hover:from-black hover:to-black/80">
+                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 text-foreground group-hover:text-white transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 md:mb-6 text-foreground group-hover:text-white transition-colors duration-300">
                   Nationwide
                 </h3>
-                <div className="text-sm md:text-base font-black text-muted-foreground group-hover:text-white space-y-2 md:space-y-3 leading-relaxed transition-colors duration-300">
+                <div className="text-xs sm:text-sm md:text-base font-black text-muted-foreground group-hover:text-white space-y-1.5 sm:space-y-2 md:space-y-3 leading-relaxed transition-colors duration-300">
                   <p>✓ Including AJK</p>
                   <p>✓ Sub-offices in major cities</p>
                   <p>✓ 24/7 availability everywhere</p>
