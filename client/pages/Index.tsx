@@ -31,41 +31,41 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center max-w-6xl">
-            {/* Left Content */}
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+            {/* Left Content - Expanded to use more space */}
+            <div className="md:col-span-7">
               <div className="flex items-center gap-3 mb-6 sm:mb-8">
                 <div className="w-1 h-10 md:h-12 bg-accent rounded-full"></div>
                 <p className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest">
                   Professional Security Since 1992
                 </p>
               </div>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 sm:mb-8 leading-tight text-foreground">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 sm:mb-8 leading-tight text-foreground">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-sm sm:text-base md:text-lg text-muted-foreground font-bold mb-8 sm:mb-12 leading-relaxed max-w-lg">
+              <p className="text-sm sm:text-base md:text-lg text-muted-foreground font-bold mb-10 sm:mb-14 leading-relaxed max-w-2xl">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+              <div className="flex flex-col sm:flex-row gap-5 sm:gap-7">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:shadow-xl transition-shadow duration-300 inline-block rounded-none"
+                  className="bg-accent text-accent-foreground px-8 md:px-10 py-3 md:py-4 font-black text-sm md:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
                 >
                   Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-accent text-accent px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-none"
+                  className="border-2 border-accent text-accent px-8 md:px-10 py-3 md:py-4 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-block rounded-lg"
                 >
-                  Request Consultation
+                  Get a Quote Now
                 </Link>
               </div>
             </div>
 
             {/* Right Visual - Empty for background image */}
-            <div className="hidden md:block"></div>
+            <div className="hidden md:block md:col-span-5"></div>
           </div>
         </div>
       </section>
