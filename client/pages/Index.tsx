@@ -662,13 +662,13 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-10 sm:py-14 md:py-24 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-pk-green-main/20">
-        <div className="container mx-auto px-0 sm:px-6 w-full">
-          <div className="mb-12 md:mb-16 text-center px-4 sm:px-0">
-            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 md:mb-6">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-24 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-pk-green-main/20">
+        <div className="container mx-auto px-4 sm:px-6 w-full">
+          <div className="mb-8 sm:mb-12 md:mb-16 text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight mb-3 sm:mb-4 md:mb-6">
               Our Trusted Clients
             </h2>
-            <p className="text-base md:text-lg font-bold text-muted-foreground">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground">
               Trusted by Leading Organizations
             </p>
           </div>
