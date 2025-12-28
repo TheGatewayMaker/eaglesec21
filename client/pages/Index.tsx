@@ -4,6 +4,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import CompanyWiseDeployments from "@/components/CompanyWiseDeployments";
 import GuardsByRegion from "@/components/GuardsByRegion";
 import LogoCarousel from "@/components/LogoCarousel";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
