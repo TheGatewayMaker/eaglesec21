@@ -789,8 +789,12 @@ export default function Home() {
       <CompanyWiseDeployments />
 
       {/* CTA Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300 relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-1/2 w-96 h-96 bg-accent/4 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-pk-green-main/3 rounded-full blur-3xl translate-y-1/2"></div>
+
+        <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl relative z-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight">
             Ready to Protect What Matters?
           </h2>
