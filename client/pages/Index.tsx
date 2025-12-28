@@ -80,8 +80,8 @@ export default function Home() {
       {/* Services Overview */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-24 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300 relative overflow-hidden">
         {/* Decorative Background Elements */}
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-accent/4 rounded-full blur-3xl translate-x-1/3"></div>
-        <div className="absolute bottom-1/4 left-0 w-80 h-80 bg-pk-green-main/3 rounded-full blur-3xl -translate-x-1/3"></div>
+        <div className="absolute top-0 -right-48 w-[550px] h-[550px] bg-accent/12 rounded-full blur-3xl opacity-60"></div>
+        <div className="absolute bottom-0 -left-32 w-[480px] h-[480px] bg-accent/14 rounded-full blur-2xl opacity-55"></div>
 
         <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
           {/* Section Title with Visual Styling */}
