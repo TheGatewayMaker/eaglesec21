@@ -206,67 +206,67 @@ export default function About() {
       </section>
 
       {/* Why Choose Us & Standards Section - Side by Side */}
-      <section className="py-14 sm:py-20 md:py-28 bg-background transition-colors duration-300">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-16">
             {/* Why Choose Us Section */}
             <div>
-              <div className="mb-8 sm:mb-12 text-center md:text-left">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground mb-2 sm:mb-3">
+              <div className="mb-6 sm:mb-8 md:mb-12 text-center md:text-left">
+                <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
                   Why Organizations Trust Eagle
                 </h2>
-                <p className="text-xs sm:text-sm md:text-lg text-muted-foreground font-bold">
+                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-bold">
                   What sets us apart in the security landscape
                 </p>
               </div>
 
-              <div className="space-y-4 sm:space-y-5">
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <Shield className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
+              <div className="space-y-3 sm:space-y-4 md:space-y-5">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
+                  <Shield className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Military Heritage
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Personnel drawn from Pakistan's elite armed forces with
                       unparalleled training and discipline.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <Users className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
+                  <Users className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Rigorous Vetting
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Comprehensive background screening ensures only the most
                       qualified join our ranks.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <MapPin className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
+                  <MapPin className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Nationwide Network
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       50+ offices across Pakistan ensures rapid response and
                       local expertise wherever you are.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <CheckCircle2 className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
+                  <CheckCircle2 className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Proven Track Record
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Trusted by government agencies, financial institutions,
                       and Fortune 500 companies.
                     </p>
@@ -276,72 +276,72 @@ export default function About() {
             </div>
 
             {/* Standards Section */}
-            <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-6 sm:p-8 md:p-12 rounded-2xl border border-accent/20">
-              <div className="mb-8 sm:mb-12 text-center md:text-left">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground mb-2 sm:mb-3">
+            <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-4 sm:p-6 md:p-8 lg:p-12 rounded-2xl border border-accent/20">
+              <div className="mb-6 sm:mb-8 md:mb-12 text-center md:text-left">
+                <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
                   Uncompromising Standards
                 </h2>
-                <p className="text-xs sm:text-sm md:text-lg text-muted-foreground font-bold">
+                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-bold">
                   Every member of the Eagle family adheres to these pillars of
                   excellence
                 </p>
               </div>
 
-              <div className="space-y-4 sm:space-y-5">
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
+              <div className="space-y-3 sm:space-y-4 md:space-y-5">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
                     1
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Absolute Integrity
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Unwavering honesty in every interaction, every decision,
                       and every service delivery.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
                     2
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Relentless Vigilance
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       24/7 alert and responsive protection, never lowering our
                       guard, ever.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
                     3
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Professional Excellence
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Continuous training, certification, and adherence to
                       international security standards.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
                     4
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Client-Centric Service
                     </h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
+                    <p className="text-xs text-muted-foreground font-bold leading-snug">
                       Your security needs drive everything we do, customized
                       solutions for every scenario.
                     </p>
@@ -354,30 +354,30 @@ export default function About() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="relative py-20 md:py-32 bg-background transition-colors duration-300 overflow-hidden">
+      <section className="relative py-12 sm:py-16 md:py-20 lg:py-32 bg-background transition-colors duration-300 overflow-hidden">
         <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-foreground mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
               Ready to Experience Eagle Security?
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground font-bold mb-10">
+            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
               Discover how our comprehensive security solutions can protect what
               matters most to you.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center">
               <Link
                 to="/services"
-                className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-10 py-4 font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+                className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
               >
                 Explore Our Services
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-accent text-accent px-10 py-4 font-black text-lg hover:bg-accent/10 transition-all duration-300 inline-block"
+                className="border-2 border-accent text-accent px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:bg-accent/10 transition-all duration-300 inline-block rounded-lg"
               >
                 Get in Touch
               </Link>
